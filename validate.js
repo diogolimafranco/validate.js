@@ -1,7 +1,7 @@
 (function(){
   'use strict';
   
-  function Validity () {
+  function Validate () {
 
     var clazz = {
       // If the given argument is a call: function the and: function return the value
@@ -188,7 +188,7 @@
     return clazz;
   };
 
-  window.Validate = new Validity();
+  window.Validate = new Validate();
   
 })()
 
