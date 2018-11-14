@@ -301,7 +301,6 @@
         return false;
       },
 
-
       isNo: function(nodeList) {
         for (var i = 0; i < nodeList.length; i++) {
           if ( nodeList[i].checked === true && nodeList[i].value == 0 || nodeList[i].value === 'no' ) {
